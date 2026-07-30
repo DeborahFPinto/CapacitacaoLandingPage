@@ -1,0 +1,46 @@
+.sobre-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 20px;
+  gap: 60px;
+}
+
+.sobre-image {
+  flex: 1;
+  background-color: var(--color-cyan);
+  height: 450px;
+  border-radius: 4px;
+}
+
+.sobre-content {
+  flex: 1;
+}
+
+.sobre-content h2 {
+  color: var(--color-cyan);
+  font-family: var(--font-rubik); /* Fonte aplicada */
+  font-weight: normal;
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid var(--color-blue);
+  margin: 20px 0;
+}
+
+.sobre-content p {
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.sobre-content h3 {
+  color: var(--color-yellow);
+  font-family: var(--font-rubik); /* Fonte aplicada */
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin-top: 16px;
+  line-height: 1.4;
+}

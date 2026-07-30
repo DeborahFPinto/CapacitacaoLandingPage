@@ -1,0 +1,35 @@
+.contato-section {
+  padding: 80px 20px;
+}
+
+.contato-box {
+  background-color: var(--color-blue);
+  border-radius: 16px;
+  padding: 60px 40px;
+  text-align: center;
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato-box h2 {
+  font-family: var(--font-montserrat); /* Fonte aplicada */
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contato-box p {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 0.95rem;
+}
+
+.botoes-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 350px;
+}

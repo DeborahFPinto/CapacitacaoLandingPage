@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Importando as fontes solicitadas */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400&family=Roboto:wght@700&family=Rubik+Mono+One&display=swap');
+
+:root {
+  /* Nova Paleta de Cores */
+  --color-cyan: #41C5C6;
+  --color-purple: #5B01BA;
+  --color-yellow: #FFC145;
+  --color-light: #F1EDEC; 
+  --color-dark-blue: #09254D;
+  --color-blue: #3790F8;
+  
+  --text-light: #FFFFFF; /* Para textos brancos dentro de botões ou fundos escuros */
+  
+  /* Tipografia */
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-rubik: 'Rubik Mono One', sans-serif;
+  --font-roboto-mono: 'Roboto Mono', monospace;
+  --font-roboto-bold: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* Demais textos em Roboto Mono e fundo com a cor clara da paleta */
+  font-family: var(--font-roboto-mono);
+  color: var(--color-dark-blue);
+  background-color: var(--color-light); 
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Botões em Roboto Bold */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background-color: var(--text-light);
+  color: var(--color-purple);
+  padding: 12px 32px;
+  border-radius: 50px;
+  
+  /* Fonte aplicada aqui */
+  font-family: var(--font-roboto-bold);
+  font-weight: 700;
+  
+  font-size: 0.9rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
